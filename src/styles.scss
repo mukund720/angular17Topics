@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.spacer {
+  flex: 1 1 auto;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* inventory-list.component.css */
+.table-container {
+  max-height: 400px; /* Adjust this height as needed */
+  overflow-x: auto;
+}
+
+.table-container table thead tr th {
+  background-color: #3f51b5 !important; /* Change this to your desired background color */
+  color: white; /* Change this to your desired text color */
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Ensure the header stays on top */
+}
+
+.mat-header-row {
+  background-color: #3f51b5; /* Change this to your desired background color */
+}
+
+.mat-paginator {
+  background-color: #f5f5f5; /* Change this to your desired background color */
+}
